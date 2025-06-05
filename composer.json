@@ -1,0 +1,26 @@
+{
+    "name": "ofthewildfire/securitymonitor",
+    "description": "Security Monitor plugin for OctoberCMS. Monitors suspicious password reset attempts and alerts users with IP tracking.",
+    "type": "october-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ofthewildfire",
+            "homepage": "https://github.com/ofthewildfire/octobercms-security-monitor"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "october/rain": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ofthewildfire\\Securitymonitor\\": ""
+        }
+    },
+    "extra": {
+        "october": {
+            "plugin": "Ofthewildfire\\Securitymonitor"
+        }
+    }
+}

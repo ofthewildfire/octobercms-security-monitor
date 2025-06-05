@@ -1,0 +1,8 @@
+plugin:
+    name: 'ofthewildfire.securitymonitor::lang.plugin.name'
+    description: 'ofthewildfire.securitymonitor::lang.plugin.description'
+    author: 'Ofthewildfire'
+    icon: 'oc-icon-shield'
+    homepage: 'https://github.com/ofthewildfire/octobercms-security-monitor'
+    replaces: []
+    require: []

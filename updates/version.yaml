@@ -1,0 +1,10 @@
+1.0.1:
+    - Initialize Security Monitor plugin
+1.0.2:
+    - Added IP tracking for password reset requests
+    - Added security notification emails
+    - Added logging for security events
+1.0.3:
+    - Improved error handling
+    - Added user agent tracking
+    - Enhanced email template
